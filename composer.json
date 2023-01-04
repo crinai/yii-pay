@@ -1,5 +1,5 @@
 {
-    "name": "guanguans/yii-pay",
+    "name": "crinai/yii-pay",
     "description": "适配于 Yii 的 alipay 和 wechat 的支付扩展包",
     "license": "MIT",
     "type": "library",
@@ -10,13 +10,13 @@
     ],
     "authors": [
         {
-            "name": "guanguans",
-            "email": "ityaozm@gmail.com"
+            "name": "crinai",
+            "email": "crinai@crinai.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/guanguans/yii-pay/issues",
-        "source": "https://github.com/guanguans/yii-pay"
+        "issues": "https://github.com/crinai/yii-pay/issues",
+        "source": "https://github.com/crinai/yii-pay"
     },
     "require": {
         "yansongda/pay": "^2.0||^3.0",
@@ -32,12 +32,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Guanguans\\YiiPay\\": "src"
+            "crinai\\YiiPay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Guanguans\\Tests\\": "tests"
+            "crinai\\Tests\\": "tests"
         }
     },
     "config": {
